@@ -1,4 +1,4 @@
-namespace OSIMS_web.Models
+namespace OSIMS_Model.Models
 {
     public class ErrorViewModel
     {

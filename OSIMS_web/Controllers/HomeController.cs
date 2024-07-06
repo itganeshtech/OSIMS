@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using OSIMS_web.Models;
+using OSIMS_Model.Models;
 using System.Diagnostics;
 
-namespace OSIMS_web.Controllers
+namespace OSIMS_Web.Controllers
 {
     public class HomeController : Controller
     {

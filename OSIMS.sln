@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSIMS_web", "OSIMS_web\OSIMS_web.csproj", "{9E14FB0A-8359-4415-BB32-E594253EB33D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSIMS_Web", "OSIMS_web\OSIMS_Web.csproj", "{9E14FB0A-8359-4415-BB32-E594253EB33D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSIMS_DataAccess", "OSIMS_DataAccess\OSIMS_DataAccess.csproj", "{CFBFC2B3-B9FA-4AB6-B4EB-8246B0C81EF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OSIMS_Model", "OSIMS_Model\OSIMS_Model.csproj", "{322B7116-35B6-4BB2-8536-D4071891B49C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OSIMS_Console", "OSIMS_Console\OSIMS_Console.csproj", "{92E73D3E-3174-4F03-A177-D52839BDA4D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{9E14FB0A-8359-4415-BB32-E594253EB33D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E14FB0A-8359-4415-BB32-E594253EB33D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E14FB0A-8359-4415-BB32-E594253EB33D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFBFC2B3-B9FA-4AB6-B4EB-8246B0C81EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBFC2B3-B9FA-4AB6-B4EB-8246B0C81EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBFC2B3-B9FA-4AB6-B4EB-8246B0C81EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBFC2B3-B9FA-4AB6-B4EB-8246B0C81EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322B7116-35B6-4BB2-8536-D4071891B49C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322B7116-35B6-4BB2-8536-D4071891B49C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322B7116-35B6-4BB2-8536-D4071891B49C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322B7116-35B6-4BB2-8536-D4071891B49C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92E73D3E-3174-4F03-A177-D52839BDA4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92E73D3E-3174-4F03-A177-D52839BDA4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92E73D3E-3174-4F03-A177-D52839BDA4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92E73D3E-3174-4F03-A177-D52839BDA4D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
